@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "svelte-ts-template",
+  "name": "svelte-ts-tailwind-template",
   "version": "1.0.0",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
