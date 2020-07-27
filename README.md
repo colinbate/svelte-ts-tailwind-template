@@ -1,3 +1,5 @@
+> ## This template is out of date, as there is official TypeScript support in Svelte now, see https://svelte.dev/blog/svelte-and-typescript and as for Tailwind support, I have another template which might be better, which I will update to support the TypeScript changes: https://github.com/colinbate/svelte-tailwindcss-template
+
 # Svelte (v3) app template with TypeScript and TailwindCSS
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template
