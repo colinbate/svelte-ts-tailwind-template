@@ -1,6 +1,3 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "jamesbirtles.svelte-vscode"
-  ]
+  "recommendations": ["svelte.svelte-vscode", "bradlc.vscode-tailwindcss"]
 }

@@ -1,25 +1,17 @@
-> ## This template is out of date, as there is official TypeScript support in Svelte now, see https://svelte.dev/blog/svelte-and-typescript and as for Tailwind support, I have another template which might be better, which I will update to support the TypeScript changes: https://github.com/colinbate/svelte-tailwindcss-template
+# Svelte + TS + Tailwind app
 
-# Svelte (v3) app template with TypeScript and TailwindCSS
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured.
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template
-
-This template includes setup for using TailwindCSS as well as TypeScript.
-
-> This template is based on two other templates both of which can be used if you don't want or need both TypeScript and TailwindCSS.
->
-> * https://github.com/muhajirdev/svelte-tailwind-template
-> * https://github.com/Axelen123/svelte-ts-template
-
-## Get started
-
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
-
-Create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit colinbate/svelte-ts-tailwind-template svelte-app
+cd svelte-app
 ```
+
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+
+## Get started
 
 Install the dependencies...
 
@@ -36,56 +28,31 @@ npm run dev
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
-## Deploying to the web
+By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
-### With [Netlify](https://www.netlify.com)
 
-Install `netlify` CLI if you haven't already:
+## Building and running in production mode
 
-```bash
-npm install netlify-cli -g
-netlify login
-```
-
-You can set up automatic continuous deployment from your GitHub repo if you want with:
-
-```bash
-netlify init
-```
-
-Otherwise you could deploy manually with:
-```bash
-npm run build
-netlify deploy --dir=public
-```
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
+To create an optimised version of the app:
 
 ```bash
 npm run build
-surge public
 ```
+
+You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+
+
+## Single-page app mode
+
+By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+
+If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+
+```js
+"start": "sirv public --single"
+```
+
+## Using TypeScript
+
+TypeScript has already been enabled in this template.
+
