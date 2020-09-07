@@ -6,7 +6,7 @@ module.exports = {
   experimental: {
     darkModeVariant: true,
   },
-  dark: 'media', // This can be 'class' if preferred.
+  dark: 'class', // This can be 'media' if preferred.
   purge: [
     './src/**/*.svelte',
     './src/**/*.html',

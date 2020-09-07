@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ModeSwitcher from './ModeSwitcher.svelte';
 	import Tailwindcss from './Tailwindcss.svelte';
 	export let name: string;
 </script>
@@ -8,6 +9,7 @@
 	}
 </style>
 <Tailwindcss />
+<ModeSwitcher />
 <main class="p-4 mx-auto text-center max-w-xl">
 	<h1 class="uppercase text-6xl font-hairline text-svelte">Hello {name}!</h1>
 	<p class="custom-style">
