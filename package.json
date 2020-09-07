@@ -10,20 +10,20 @@
   "devDependencies": {
     "postcss": "^7.0.32",
     "postcss-load-config": "^2.1.0",
-    "@rollup/plugin-commonjs": "^12.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.0",
-    "rollup": "^2.23.0",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.26.10",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.2",
     "svelte": "^3.0.0",
-    "svelte-check": "^0.1.0",
-    "svelte-preprocess": "^4.0.0",
-    "@rollup/plugin-typescript": "^4.0.0",
-    "tailwindcss": "1.6.0",
-    "typescript": "^3.9.3",
-    "tslib": "^2.0.0",
-    "@tsconfig/svelte": "^1.0.0"
+    "svelte-check": "^1.0.0",
+    "svelte-preprocess": "^4.2.1",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "tailwindcss": "1.8.4",
+    "typescript": "^4.0.2",
+    "tslib": "^2.0.1",
+    "@tsconfig/svelte": "^1.0.10"
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
