@@ -1,4 +1,4 @@
-# Svelte + TS + Tailwind app
+# Svelte + TS + Tailwind 2.0 app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured.
 
@@ -9,7 +9,7 @@ npx degit colinbate/svelte-ts-tailwind-template svelte-app
 cd svelte-app
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+*Note that you will need to have [Node.js](https://nodejs.org) >=12.13 installed.*
 
 ## Get started
 

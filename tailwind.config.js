@@ -1,14 +1,5 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
-  experimental: {
-    darkModeVariant: true,
-  },
-  dark: 'class', // This can be 'media' if preferred.
+  darkMode: 'class', // This can be 'media' if preferred.
   purge: [
     './src/**/*.svelte',
     './src/**/*.html',
