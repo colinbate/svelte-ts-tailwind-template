@@ -1,6 +1,6 @@
 # Svelte + TS + Tailwind 2.0 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Now using the JIT Tailwind CSS compiler.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
