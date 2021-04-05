@@ -1,6 +1,8 @@
-# Svelte + TS + Tailwind 2.0 app
+# Svelte + TS + Tailwind 2.1 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Now using the JIT Tailwind CSS compiler.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.1 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.1.0 specifically.**
+
+> Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
