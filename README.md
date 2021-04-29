@@ -1,3 +1,5 @@
+> **This repo is now using `main` as the default branch. This branch will remain for a while, but will not receive updates.**
+
 # Svelte + TS + Tailwind 2.1 app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.1 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.1.0 specifically.**
