@@ -4,6 +4,9 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
+> ## Important
+> When building your project in a CI environment, or any other time you want to use `npm run build` you will need to make sure you don't have `NODE_ENV=development` as that will cause Tailwind to use a long running process. You can set `TAILWIND_MODE=build` to get around this without changing `NODE_ENV`. Also note that in many CI environments, setting `NODE_ENV=production` will mean that your `devDependencies` are not installed, which doesn't work for Svelte apps.
+
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
