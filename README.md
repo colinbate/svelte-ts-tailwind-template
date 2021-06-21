@@ -1,12 +1,12 @@
 > This repo is now using `main` as the default branch.
-# Svelte + TS + Tailwind 2.1 app
+# Svelte + TS + Tailwind 2.2 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.1 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.1.2 specifically.**
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.1 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.2.2 specifically.**
 
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
 > ## Important
-> When building your project in a CI environment, or any other time you want to use `npm run build` you will need to make sure you don't have `NODE_ENV=development` as that will cause Tailwind to use a long running process. You can set `TAILWIND_MODE=build` to get around this without changing `NODE_ENV`. Also note that in many CI environments, setting `NODE_ENV=production` will mean that your `devDependencies` are not installed, which doesn't work for Svelte apps.
+> The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not seem to work properly with SveltePreprocess. If you use the legacy method it does work, and I've added an environment variable that does that when running the dev build. It won't work on Windows though and I will see about sorting that out as soon as I can. Setting `TAILWIND_MODE=watch` is what you need if you are on Windows. I will be attempting to get a better developer experience soon.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 

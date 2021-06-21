@@ -45,6 +45,7 @@ export default {
 				dev: !production,
 			},
 			preprocess: sveltePreprocess({
+				sourceMap: !production,
 				postcss: true,
 			}),
 		}),
@@ -69,7 +70,7 @@ export default {
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
-		!production && livereload('public'),
+		!production && livereload({watch: 'public'}),
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
