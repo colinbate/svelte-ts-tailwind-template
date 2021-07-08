@@ -15,7 +15,7 @@ npx degit colinbate/svelte-ts-tailwind-template svelte-app
 cd svelte-app
 ```
 
-Alternatively, if you currently on GitHub, you can click the "Use this template" button at the top of this page.
+Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.
 
 *Note that you will need to have [Node.js](https://nodejs.org) >=12.13 installed.*
 
