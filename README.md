@@ -6,7 +6,7 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
 > ## Important
-> The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not seem to work properly with SveltePreprocess. If you use the legacy method it does work, and I've added an environment variable to the rollup config which should take care of the issue for now, even on Windows, although I wasn't observing the issue happening there.
+> The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not work properly with Rollup. I've fixed it, but in order to not break it, do not include a glob in the Tailwind purge config that targets the `public` folder.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
