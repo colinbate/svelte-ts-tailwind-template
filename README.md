@@ -6,7 +6,7 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
 > ## Important
-> The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not seem to work properly with SveltePreprocess. If you use the legacy method it does work, and I've added an environment variable that does that when running the dev build. It won't work on Windows though and I will see about sorting that out as soon as I can. Setting `TAILWIND_MODE=watch` is what you need if you are on Windows. I will be attempting to get a better developer experience soon.
+> The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not seem to work properly with SveltePreprocess. If you use the legacy method it does work, and I've added an environment variable to the rollup config which should take care of the issue for now, even on Windows, although I wasn't observing the issue happening there.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -14,6 +14,8 @@ To create a new project based on this template using [degit](https://github.com/
 npx degit colinbate/svelte-ts-tailwind-template svelte-app
 cd svelte-app
 ```
+
+Alternatively, if you currently on GitHub, you can click the "Use this template" button at the top of this page.
 
 *Note that you will need to have [Node.js](https://nodejs.org) >=12.13 installed.*
 
