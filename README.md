@@ -1,12 +1,15 @@
 > This repo is now using `main` as the default branch.
 # Svelte + TS + Tailwind 2.2 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.1 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.2.2 specifically.**
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 2.2.8 with the JIT compiler enabled. **The JIT feature is in preview and not tied to SemVer, so I've set it to 2.2.8 specifically.**
 
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
 
 > ## Important
 > The build/watch machanism has changed in TailwindCSS 2.2 and as such it does not work properly with Rollup. I've fixed it, but in order to not break it, do not include a glob in the Tailwind purge config that targets the `public` folder.
+
+> ## Hanging Builds
+> There is an issue at the moment with Rollup and maybe TypeScript, maybe something else, but I found that pinning TS to 4.3.5 prevents the issue with a hanging build. Follow the issue here: https://github.com/rollup/rollup/issues/4213
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
