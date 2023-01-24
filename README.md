@@ -1,10 +1,9 @@
 > Default dev port is now `8080`
 # Svelte + TS + Tailwind 3.0 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 3.0, which now uses
-the JIT compiler by default.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 3.2, which now uses the JIT compiler by default.
 
-> Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed.
+> Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed. Now that SvelteKit is past 1.0, it is an option you may want to consider for any larger apps.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -15,7 +14,7 @@ cd svelte-app
 
 Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.
 
-*Note that you will need to have [Node.js](https://nodejs.org) >=12.13 installed.*
+*Note that you will need to have [Node.js](https://nodejs.org) >=16 installed.*
 
 ## Get started
 
