@@ -1,7 +1,9 @@
 > Default dev port is now `8080`
-# Svelte + TS + Tailwind 3.0 app
+# [WIP] Svelte v4 + TS + Tailwind 3.3 app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 3.2, which now uses the JIT compiler by default.
+**WARNING** Dark mode not working in this as there is an issue with Tailwind 3.3's use of `:is()`.
+
+This is a project template for [Svelte](https://svelte.dev) (v4) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the form official Svelte template for Rollup with TypeScript pre-enabled and Tailwind CSS configured. Uses Tailwind CSS 3.2, which now uses the JIT compiler by default.
 
 > Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed. Now that SvelteKit is past 1.0, it is an option you may want to consider for any larger apps.
 
