@@ -1,10 +1,8 @@
-import App from './App.svelte';
+import "./app.postcss";
+import App from "./App.svelte";
 
 const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+  target: document.getElementById("app"),
 });
 
 export default app;
