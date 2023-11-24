@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  let darkMode = false;
+  let darkMode = $state(false);
   const THEME_KEY = 'themePreference';
 
   function setDarkTheme(dark: boolean) {
@@ -13,7 +12,7 @@
     window.localStorage.setItem(THEME_KEY, darkMode ? 'dark' : 'light');
   }
 
-  onMount(() => {
+  $effect(() => {
     darkMode = document.documentElement.classList.contains('dark');
   });
 </script>
