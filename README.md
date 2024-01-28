@@ -1,6 +1,8 @@
 > Default dev port is now `5173`, it now uses Vite under the hood.
 # Svelte v4 + TS + Tailwind 3.3 app
 
+**There is a Svelte 5 starter in the `svelte5` branch.**
+
 **NOTE** Dark mode stopped working with the Rollup based template, and since it isn't supported anymore, I've switched this to the Vite based template.
 
 This is a project template for [Svelte](https://svelte.dev) (v4) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template via `create-vite` with TypeScript selected and Tailwind CSS added via `svelte-add`. The dependencies were then updated to latest (as of the latest commit). It is getting pretty easy to get this stack working without this template, but may save you a bit of time.
