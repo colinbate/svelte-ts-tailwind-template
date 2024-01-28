@@ -1,4 +1,4 @@
-# Svelte 5 + TS + Tailwind 3.3 app
+# Svelte 5 + TS + Tailwind 3.4 app
 
 > At this time (Jan 2024) Svelte 5 is still experimental. You may see some warnings when `npm install`ing.
 
@@ -9,13 +9,13 @@ This is a project template for [Svelte](https://svelte.dev) (v5) apps. It lives 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit colinbate/svelte-ts-tailwind-template svelte-app
+npx degit colinbate/svelte-ts-tailwind-template#svelte5 svelte-app
 cd svelte-app
 ```
 
-Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.
+<del>Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.</del> (This doesn't seem to work for non-primary branches)
 
-*Note that you will need to have [Node.js](https://nodejs.org) >=16 installed.*
+*Note that you will need to have [Node.js](https://nodejs.org) >=18 installed.*
 
 ## Get started
 
