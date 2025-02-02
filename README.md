@@ -1,13 +1,12 @@
-> Default dev port is now `5173`, it now uses Vite under the hood.
-# Svelte v4 + TS + Tailwind 3.3 app
+# Svelte 5 + TS + Tailwind 4 app
 
-**There is a Svelte 5 starter in the `svelte5` branch.**
+> (1 Feb 2025) I'm updating to Tailwind 4 and merging the `svelte5` branch into main.
 
-**NOTE** Dark mode stopped working with the Rollup based template, and since it isn't supported anymore, I've switched this to the Vite based template.
+This is a project template for [Svelte](https://svelte.dev) (v5) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template via `create-vite` with TypeScript selected and Tailwind CSS added via `svelte-add`. The dependencies were then updated to latest (as of the latest commit). It is getting pretty easy to get this stack working without this template, but may save you a bit of time.
 
-This is a project template for [Svelte](https://svelte.dev) (v4) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template via `create-vite` with TypeScript selected and Tailwind CSS added via `svelte-add`. The dependencies were then updated to latest (as of the latest commit). It is getting pretty easy to get this stack working without this template, but may save you a bit of time.
+There is now a new `npx sv` command that you can use to initialize Svelte apps, and you may find that more useful.
 
-> Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed. Now that SvelteKit is past 1.0, it is an option you may want to consider for any larger apps.
+Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the above mentioned technologies pre-installed. Now that SvelteKit is production ready, it is an option you may want to consider for any larger apps.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -16,9 +15,9 @@ npx degit colinbate/svelte-ts-tailwind-template svelte-app
 cd svelte-app
 ```
 
-Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.
+<del>Alternatively, if you are currently on GitHub, you can click the "Use this template" button at the top of this page.</del> (This doesn't seem to work for non-primary branches)
 
-*Note that you will need to have [Node.js](https://nodejs.org) >=16 installed.*
+*Note that you will need to have [Node.js](https://nodejs.org) >=18 installed.*
 
 ## Get started
 
