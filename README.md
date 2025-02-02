@@ -1,6 +1,6 @@
-# Svelte 5 + TS + Tailwind 3.4 app
+# Svelte 5 + TS + Tailwind 4 app
 
-> (Oct 19, 2024) Svelte 5 has been released!
+> (1 Feb 2025) I'm updating to Tailwind 4 and merging the `svelte5` branch into main.
 
 This is a project template for [Svelte](https://svelte.dev) (v5) apps. It lives at https://github.com/colinbate/svelte-ts-tailwind-template and is based on the official Svelte template via `create-vite` with TypeScript selected and Tailwind CSS added via `svelte-add`. The dependencies were then updated to latest (as of the latest commit). It is getting pretty easy to get this stack working without this template, but may save you a bit of time.
 
@@ -11,7 +11,7 @@ Note that this isn't a SvelteKit app, this is a vanilla Svelte template with the
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit colinbate/svelte-ts-tailwind-template#svelte5 svelte-app
+npx degit colinbate/svelte-ts-tailwind-template svelte-app
 cd svelte-app
 ```
 
